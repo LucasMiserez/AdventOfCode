@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Lucas Miserez",
+  "classifications": [ "Common", "Console" ],
+  "identity": "AdventOfCode.StarterTemplate",
+  "name": "Advent Of Code: Starter Template",
+  "shortName": "aocstarter",
+  "sourceName":"Template",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}
