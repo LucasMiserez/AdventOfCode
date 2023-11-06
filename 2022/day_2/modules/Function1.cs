@@ -34,7 +34,6 @@ public static class Function1
             }
         }
         return Calc(roundInt);
-        
     }
 
     private static int Calc(int[] roundInt) {
@@ -43,7 +42,7 @@ public static class Function1
         }
         if (roundInt[0] == 3 && roundInt[1] == 1 || roundInt[0] == 1 && roundInt[1] == 2 || roundInt[0] == 2 && roundInt[1] == 3)
         {
-             return roundInt[1] + 6;
+            return roundInt[1] + 6;
         }
         return roundInt[1];
     }

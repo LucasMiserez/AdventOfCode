@@ -11,7 +11,7 @@ class Program
     {
         try
         {
-            string input = File.ReadAllText(INPUTPATH);
+            string input = File.ReadAllText(INPUTPATH).Trim();
             Console.WriteLine($"Functie 1: {Function1.Run(input)}");
             Console.WriteLine($"Functie 2: {Function2.Run(input)}");
         }
